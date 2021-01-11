@@ -1,0 +1,194 @@
+
+.btn-cart-like:focus{
+    outline: none;
+}
+
+.liveSearch{
+    width: 25%;
+    padding: 10px 20px;
+}
+.liveSearch:focus{
+    outline: none;
+}
+
+/* Saikal code start */
+
+.block-filter{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 200px;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+
+.block-filter-page{
+    display: flex;
+}
+
+.products-block-in-filter-page{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.product-list-btn, .filter-btn{
+    width: 300px;
+    height: 40px;
+    background-color: inherit;
+    cursor: pointer;
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 10px;
+    color:  rgb(248, 45, 147);;
+    background-color: rgb(248, 45, 147);;
+    color: #fff;
+    border-color: rgb(248, 45, 147);;
+}
+.product-list-btn:hover , .filter-btn:hover{
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03); 
+    transform: scale(1.03);
+    transition: 0,1s;
+}
+.filter-btn{
+    width: 300px;
+    height: 40px;
+    background-color: inherit;
+    cursor: pointer;
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 10px;
+    transition: 0,5s;
+    background-color: #fff;
+    color:  rgb(248, 45, 147);;
+    border: 1px solid rgb(248, 45, 147);
+}
+.cart, .like{
+    width: 100%;
+}
+.btn-cart-like:hover{
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03); 
+    transform: scale(1.03);
+    transition: 0,5s;
+}
+
+.product-card{
+    width: 700px;
+    /* margin-left: 25px; */
+    border-bottom: 1px solid rgba(173, 170, 170, 0.747);
+}
+.btn-cart-like{
+    width: 30px;
+    background-color: inherit;
+    height: 30px;
+}
+
+/* Сайт бар */
+
+.MuiFormControlLabel-root{
+    height: 20px;
+}
+
+.products-list__title{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product-card__title{
+    font-size: 18px;
+    font-weight: 7;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.first-section-cart{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 50px;
+}
+
+.last-section-cart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-filter-adadptive{
+    margin-top: 20px;
+    display: none;
+}
+
+@media all and (max-width: 994px){
+    .block-filter{
+        display: none;
+    }
+    .block-filter-adadptive{
+        display: block;
+    }
+}
+
+@media all and (max-width: 773px){
+    .product-card{
+        display: block !important;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-product-list{
+        min-width: 50%;
+        margin: 0 !important;
+    }
+    .first-section-cart{
+        align-items: center;
+    }
+    .liveSearch{
+        width: 100%;
+    }
+    .block-in-product-list{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media all and (max-width: 500px){
+    .product-card{
+        width: 300px;
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+    .img-product-list{
+        min-width: 80%;
+    }
+    .block-in-product-list{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media all and (max-width: 320px){
+    .product-card{
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-product-list{
+        min-width: 50%;
+    }
+    .block-in-product-list{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .first-section-cart{
+        align-items: center;
+    }
+}

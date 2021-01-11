@@ -1,0 +1,37 @@
+.width-600{
+    display: none;
+}
+.width-400{
+    display: none;
+}
+.width-300{
+    display: none;
+}
+
+@media all and (max-width: 999px){
+    .width-800{
+        display: none;
+    }
+    .width-600{
+        display: block;
+    }
+}
+
+@media all and (max-width: 781px){
+    .width-600{
+        display: none;
+    }
+    .width-400{
+        display: block;
+    }
+}
+
+@media all and (max-width: 483px){
+    .width-400{
+        display: none;
+    }
+    .width-300{
+        display: block;
+    }
+}
+

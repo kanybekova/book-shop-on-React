@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap");
+
+td {
+  border: 1px solid gray;
+}
+
+table {
+  width: 100%;
+}
+
+.container {
+  max-width: 95%;
+}
+
+.admin-panel {
+  display: flex;
+  justify-content: center;
+}
+
+.add-panel {
+  display: flex;
+  justify-content: center;
+}
+
+.admin__name {
+  font-family: "Rubik", sans-serif;
+}
+
+/* .table__name {
+  font-family: "Rubik", sans-serif;
+  background-color: rgb(151, 136, 211);
+  height: 30px;
+} */
+/* .table {
+  font-family: "Rubik", sans-serif;
+  background-color: rgb(235, 232, 244);
+  align-items: center;
+} */

@@ -1,0 +1,22 @@
+button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: rgb(248, 45, 147);
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    /* background-size: 100% 100%; */
+    /* box-shadow: 0 0 0 7px var(--light) inset; */
+    margin: 15px;
+}
+.MuiInputBase-input{
+    background-color: #ffffff !important;
+}
+
+.internal-autofill-selected{
+    background-color: #ffffff;
+}

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');  
+.home {
+  background-color: #573ba3;
+}
+
+.home__text {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  text-size-adjust: bold;
+}
+
+.home__container {
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: contain;
+  height: 450px;
+}
+
+.home__image {
+  width: 100%;
+}
+
+form {
+  background-color: #ffffff;
+  border-radius: 999px;
+  width: 24%;
+  display: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.searchInput input {
+  width: 250px;
+  height: 50px;
+  padding-left: 15px;
+  border-radius: 30px;
+  border: 2px solid #fff;
+  background: #ffffff;
+  outline: none;
+  position: relative;
+  transition: 0.3s linear;
+}
+.searchInput input:focus {
+  width: 200px;
+}
+.searchInput button {
+  width: 40px;
+  height: 40px;
+  background: rgb(248, 45, 147);
+  border: none;
+  color: white;
+  border-radius: 9999px;
+  padding: 0;
+  margin-top: 10px;
+}
+.searchInput button:before {
+  font-family: FontAwesome;
+  color: #324b4e;
+}
+@media all and (max-width:1330px){
+  .home__container{
+    height: 414px;
+  }
+}
+@media all and (max-width: 1220px){
+  .home__container{
+    height: 374px;
+  }
+  .searchInput{
+    display: none ;
+  }
+}
+@media all and (max-width:1100px){
+  .searchInput{
+    display: none ;
+  }
+  .home__container{
+    height: 339px;
+  }
+  .home-title{
+    font-size: 50px;
+    padding-bottom: 0%;
+  }
+}
+@media all and (max-width:1000px){
+  .home__container{
+    height: 335px;
+  }
+  .searchInput{
+    display: none ;
+  }
+}
+/* @media all and (max-width:800px){
+  .home__container{
+    height: 260px;
+  }
+} */
+@media all and (max-width:768px){
+  .home__container{
+    height: 259px;
+  }
+  .home__text{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .title-header{
+    font-size: 30px;
+  } 
+}
+@media all and (max-width:515px){
+  .home__container{
+    height: 175px;
+  }
+  .home-title{
+    font-size: 28px;
+  }
+  .home__text{
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+}
+@media all and (max-width:361px){
+  .home__container{
+    height: 1px;
+  }
+  .title-header{
+    font-size: 22px;
+  } 
+  
+}
+@media all and (max-width:320px){
+  .home__container{
+    height: 108px;
+  }
+  .home-title{
+    font-size: 20px;
+  }
+}

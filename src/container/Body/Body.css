@@ -1,0 +1,133 @@
+/* .body-card{
+    max-width: 200px;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+    border-radius: 2%;
+    -webkit-box-shadow: 0px 0px 15px -5px rgba(171, 166, 174, 0.6) inset;
+-moz-box-shadow: 0px 0px 15px -5px rgba(171, 166, 174, 0.6) inset;
+box-shadow: 0px 0px 15px -5px rgba(171, 166, 174, 0.6) inset;
+}
+.body-card:hover {
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03); 
+    transform: scale(1.03);
+} */
+/* .circle {
+    width: 71px;
+    height: 71px;
+    align-items: center;
+    background-color: #7e7e7e;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    display: table;
+  } */
+/* .elipseLogo {
+    display: table-cell;
+    vertical-align: middle;
+    margin:0;
+    width:10%;
+}
+.circle{
+    margin: 30px 0;
+}
+
+.btn-in-home{
+    width: 300px;
+    height: 40px;
+    border: 1px solid#573ba3;
+    background-color: inherit;
+    cursor: pointer;
+    /* outline: none; */
+    /* border: none; */
+    /* background-color:  #fff;
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 30px;
+    color:  #573ba3;
+} */
+
+/* .btn-in-home:hover{
+    background-color: #573ba3;
+    color: #fff;
+    border-color: #573ba3;
+}
+
+.block-btn-in-home{
+    padding-bottom: 50px; */
+
+
+    .body-card{
+        max-width: 200px;
+        margin-right: 10px;
+        transition: all 0.3s ease;
+        border-radius: 2%;
+        -webkit-box-shadow: 0px 0px 15px -5px rgba(171, 166, 174, 0.6) inset;
+    -moz-box-shadow: 0px 0px 15px -5px rgba(171, 166, 174, 0.6) inset;
+    box-shadow: 0px 0px 15px -5px rgba(171, 166, 174, 0.6) inset;
+    }
+    .body-card:hover {
+        -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03); 
+        transform: scale(1.03);
+    }
+    /* .circle {
+        width: 71px;
+        height: 71px;
+        align-items: center;
+        background-color: #7e7e7e;
+        -moz-border-radius: 30px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        display: table;
+      } */
+    .elipseLogo {
+        display: table-cell;
+        vertical-align: middle;
+        margin:0;
+        width:10%;
+    }
+    .circle{
+        margin: 30px 0;
+    }
+    
+    .btn-in-home{
+        width: 300px;
+        height: 40px;
+        border: 1px solid#573ba3;
+        background-color: inherit;
+        cursor: pointer;
+        /* outline: none; */
+        /* border: none; */
+        background-color:  #fff;
+        width: 140px;
+        height: 40px;
+        border-radius: 30px;
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 30px;
+        color:  #573ba3;
+    }
+    
+    .btn-in-home:hover{
+        background-color: #573ba3;
+        color: #fff;
+        border-color: #573ba3;
+    }
+    
+    .block-btn-in-home{
+        padding-bottom: 50px;
+    }
+    
+    @media all and (max-width:700px){
+        .category-title{
+            font-size: 20px;
+        }
+        .elipseLogo{
+            width: 20%;
+        }
+    }
+    
